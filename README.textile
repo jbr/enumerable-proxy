@@ -13,8 +13,20 @@ h2. Usage
 <pre><code>
 require 'enumerable_proxy'
 
+[1, 2, 3].proxy(:map) == 2 #=> [false, true, false]
+
 [1, 2, 3].p(:map).to_s #=> ['1', '2', '3']
 
+[1, 2, 3].pmap * 10 #=> [10, 20, 30]
+
+#peach, pmap, pselect, preject, pall?, pany?, pdetect are all added to Array.
+</code></pre>
+
+To get even more succinct, require @enumerable_proxy/array_extensions@ and
+it'll alias_method_chain Array#map, each, etc so if they are called with no block,
+they will return a proxy for their method.
+
+<code><pre>
 require 'enumerable_proxy/array_extensions'
 
 [1, 2, 3].map.to_s #=> ['1', '2', '3']
