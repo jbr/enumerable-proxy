@@ -8,7 +8,7 @@ begin
     gem.summary = %Q{[1,2,3].map.to_s == %w(1 2 3)}
     gem.description = %Q{EnumerableProxy is a pattern for simple block-free ruby enumeration}
     gem.email = "github@jacobrothstein.com"
-    gem.homepage = "http://github.com/jbr/enumerable--proxy"
+    gem.homepage = "http://github.com/jbr/enumerable-proxy"
     gem.authors = ["Jacob Rothstein"]
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end

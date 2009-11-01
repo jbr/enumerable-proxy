@@ -28,7 +28,7 @@ Gem::Specification.new do |s|
      "lib/enumerable_proxy/array_extensions.rb",
      "test/test_helper.rb"
   ]
-  s.homepage = %q{http://github.com/jbr/enumerable--proxy}
+  s.homepage = %q{http://github.com/jbr/enumerable-proxy}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.5}
