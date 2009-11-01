@@ -1,0 +1,25 @@
+h1. Enumerable Proxy
+
+h2. Background
+
+See "here":http://www.jacobrothstein.com/entries/enumerable-proxy and "here":http://www.jacobrothstein.com/entries/further-enumerable-proxy
+
+h2. Installation
+
+<pre><code>sudo gem install enumerable-proxy</code></pre>
+
+h2. Usage
+
+<pre><code>
+require 'enumerable_proxy'
+
+[1, 2, 3].p(:map).to_s #=> ['1', '2', '3']
+
+require 'enumerable_proxy/array_extensions'
+
+[1, 2, 3].map.to_s #=> ['1', '2', '3']
+[1, 2, 3].map + 2 #=> [3, 4, 5]
+
+(0..10).to_a.select < 5 #=> [0, 1, 2, 3, 4]
+</code></pre>
+  
