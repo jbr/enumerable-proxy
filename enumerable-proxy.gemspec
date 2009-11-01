@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{enumerable-proxy}
-  s.version = "1.1.2"
+  s.version = "1.1.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jacob Rothstein"]
@@ -14,13 +14,13 @@ Gem::Specification.new do |s|
   s.email = %q{github@jacobrothstein.com}
   s.extra_rdoc_files = [
     "LICENSE",
-     "README"
+     "README.textile"
   ]
   s.files = [
     ".document",
      ".gitignore",
      "LICENSE",
-     "README",
+     "README.textile",
      "Rakefile",
      "VERSION",
      "enumerable-proxy.gemspec",
