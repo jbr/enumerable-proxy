@@ -1,3 +1,5 @@
+require 'enumerable-proxy'
+
 module EnumerableProxy
   module ArrayExtensions
     def self.included(klass)
