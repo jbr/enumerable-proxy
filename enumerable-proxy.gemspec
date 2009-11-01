@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{enumerable-proxy}
-  s.version = "1.1.3"
+  s.version = "1.1.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jacob Rothstein"]
@@ -26,6 +26,7 @@ Gem::Specification.new do |s|
      "enumerable-proxy.gemspec",
      "lib/enumerable_proxy.rb",
      "lib/enumerable_proxy/array_extensions.rb",
+     "lib/enumerable_proxy/array_p_methods.rb",
      "test/test_helper.rb"
   ]
   s.homepage = %q{http://github.com/jbr/enumerable-proxy}
