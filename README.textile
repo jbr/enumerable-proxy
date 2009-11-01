@@ -26,7 +26,7 @@ To get even more succinct, require @enumerable_proxy/array_extensions@ and
 it'll alias_method_chain Array#map, each, etc so if they are called with no block,
 they will return a proxy for their method.
 
-<code><pre>
+<pre><code>
 require 'enumerable_proxy/array_extensions'
 
 [1, 2, 3].map.to_s #=> ['1', '2', '3']
