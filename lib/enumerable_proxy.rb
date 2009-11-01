@@ -20,3 +20,4 @@ module EnumerableProxy
 end
 
 Enumerable.instance_eval {include EnumerableProxy}
+require 'enumerable_proxy/array_p_methods'
